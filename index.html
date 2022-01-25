@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,13 +9,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/ac46427708.js" crossorigin="anonymous"></script>
-	<title>KuMSoC | Kottayam Udergraduate Mock Summer of Code</title>
+	<title>BoSS | Kottayam Mock Summer of Code</title>
 </head>
 <body>
 	<header>
-		<div class="navbar flex">	
+		<div class="navbar flexmenu">	
 			<div class="logo">
-				KuMSoC
+				BoSS
 			</div>
 			<nav>				
 					<ul class="list">
@@ -28,6 +28,7 @@
 	</header>
 
 	<div class="landing">
+		<div id="particles-js"></div>
 		<div class="container">
 			<div class="betalab">
 				<img src="./images/betalab-horizontal.png" alt="logo">
@@ -35,14 +36,14 @@
 
 			<div class="text">
 				<h3>Presents</h3>
-				<h1>KuMSoC</h1>
+				<h1>BoSS</h1>
 			</div>
 		</div>		
 	</div>
 	
 	<div class="flex">
 		<div class="about">
-			<h1>What is <span class="highlight">KuMSoC ?</span></h1>
+			<h1>What is <span class="highlight">BoSS ?</span></h1>
 			<p>Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors. The Mock GSoC is an opportunity to let you gain valuable experience while working on something you're passsionate about in a similar way of GSoC. </p>
 		</div>
 		<div class="time">
@@ -168,7 +169,12 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel dolor et arcu consectetur luctus.</p>
 			</div>
 			</a>
-
+			<p class="idea">If you've got any new ideas send them to us:</p>
+			<a href="">
+			<div class="submitbtn">
+				Add Project
+			</div>
+			</a>
 		</div>		
 	</section>
 	<a id="CONTRIBUTION"></a>
@@ -185,10 +191,10 @@
 			Praesent tincidunt elit ac molestie
 		</p>
 		<a href="">
-		<button>
-			Apply for KuMSoC
-		</button>
-	</a>
+			<div class="button">
+				Apply for BoSS
+			</div>
+		</a>
 	</section>
 
 	<a id="FAQ"></a>
@@ -269,22 +275,20 @@
 		<img src="images/betalab-horizontal.png" alt="Betalabs logo" class="logo">
 		<section class="logos" >
 			<a href="" style="color: #eeeeee;  text-decoration: none;"> 
-				<i class="fas fa-envelope fa-2x" style="padding-right: 30px;"></i>
+				<i class="fas fa-envelope fa-2x center" style="padding-right: 30px;"></i>
 			</a>
 			<a href="" style="color: #eeeeee;  text-decoration: none;"> 
-				<i class="fab fa-github fa-2x" style="padding-right: 30px;"></i>
+				<i class="fab fa-github fa-2x center" style="padding-right: 30px;"></i>
 			</a>
 			<a href="" style="color: #eeeeee;  text-decoration: none;">
-			<i class="fab fa-discord fa-2x" style="padding-right: 30px;"></i>
+			<i class="fab fa-discord fa-2x center" style="padding-right: 30px;"></i>
 			</a>
 			<a href="" style="color: #eeeeee; text-decoration: none;" style="margin-right: 1.5%;"> 
-				<i class="fab fa-youtube fa-2x" ></i>
+				<i class="fab fa-youtube fa-2x center" ></i>
 			</a>
 		</section>
 	</section>
-
-
-
-
+	<script src="scripts/particles.min.js"></script>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
